@@ -1,0 +1,49 @@
+---
+title: "My Math4753 Package"
+output: rmarkdown::html_vignette
+author: "Cassidy Krantz"
+vignette: >
+  %\VignetteIndexEntry{My Math4753 Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753kran1018)
+```
+
+# Introduction
+
+This is Cassidy Krantz's package created for MATH4753 Fall 2020. It contains several functions created during the course.
+
+# Functions
+
+The package contains the following functions
+
+* myboot2  
+: creates a bootstrap  
+
+* mycltu  
+: creates a central limit theorem distribution  
+
+* myf
+: squares a value  
+
+* mymlbeta
+: created a beta maximum likelihoood  
+
+* mynbin
+: provides the probability of a negative binomial  
+
+* myncurve
+: creates a normal curve  
+
+* piecefunc
+: performs a piecewise function
